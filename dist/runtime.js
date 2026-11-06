@@ -9839,7 +9839,7 @@ function bc(e, t = e.length) {
 function xc(e) {
 	try {
 		let t = JSON.parse(e.key);
-		if (Array.isArray(t) && Number.isInteger(t[0]) && t[0] >= 0) return e.label.replace(/主楼 #\d+$/, `Tin chính #${t[0]}`);
+		if (Array.isArray(t) && Number.isInteger(t[0]) && t[0] >= 0) return e.label.replace(/(?:主楼|Tin chính) #\d+$/, `Tin chính #${t[0]}`);
 	} catch {}
 	return e.label;
 }
