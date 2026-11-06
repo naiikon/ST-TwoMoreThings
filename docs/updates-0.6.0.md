@@ -1,7 +1,7 @@
-# 两三事 0.6.0
+# 两三事 0.6.0 (bản Việt hóa)
 
-- **聊天列表与历史**：联系人和群聊混排，新消息会话靠前，未聊过的放后。聊天页触顶后继续下拉，松手加载本地已存历史；原按钮也会停在新展开消息的最后一条，方便接着读。
-- **未读数字**：每行右侧、日期下方显示主题重点色数字角标，超过99显示99+。未打开会话时，正文导入的对方短信也计入；打开对应会话后清零，清通知不会清掉未读。
-- **圈内与圈外论坛**：点“论坛”标题下拉切换，两区独立刷新，全部使用匿名网名。圈内围绕已保存的社区范围展开日常；可在标题菜单里修改范围，保存不同范围会清本区旧帖，收藏与已生照片保留。
-- **共用世界书排除**：设置 → 内容设置 → 世界书排除，可搜索并勾选整本书，与千千结、构画共用同一份名单，已有排除直接生效。区域底色、字号、复选框、焦点和右侧箭头已适配手机主题与子项层级。
-- **微信续聊**：私聊和群聊不再自动附带论坛整页，论坛内容只通过你在短信中明确分享或转述的文字带入。完整聊天历史仍保留，并放在背景材料之后；续聊提示更注重最近一组发言、话语指向和已获回应的结果，同时保留角色原有连发风格与自然展开空间。
+- **Danh sách chat và lịch sử**: liên hệ và nhóm chat xếp chung, cuộc trò chuyện có tin mới lên đầu, chưa chat bao giờ thì xếp sau. Trong trang chat, kéo lên tới đầu rồi kéo tiếp xuống, thả tay để tải lịch sử đã lưu trên máy; nút cũ cũng dừng ở tin cuối của đoạn vừa mở, tiện đọc tiếp.
+- **Số tin chưa đọc**: bên phải mỗi dòng, dưới ngày giờ có huy hiệu số theo màu nhấn của chủ đề, quá 99 hiện 99+. Khi chưa mở cuộc trò chuyện, tin nhắn của đối phương được đưa vào từ luồng chat chính cũng được tính; mở cuộc trò chuyện tương ứng thì về 0, xóa thông báo không xóa số chưa đọc.
+- **Diễn đàn trong vòng và ngoài vòng**: bấm tiêu đề "Diễn đàn" để chuyển, hai khu làm mới độc lập, đều dùng nickname ẩn danh. Trong vòng xoay quanh đời thường của phạm vi cộng đồng đã lưu; có thể sửa phạm vi trong menu tiêu đề, lưu phạm vi khác sẽ xóa bài cũ của khu này, mục đã lưu và ảnh đã tạo được giữ lại.
+- **Loại trừ world book dùng chung**: Cài đặt → Cài đặt nội dung → Loại trừ world book, có thể tìm và tick cả quyển, dùng chung một danh sách với 千千结 và 构画, các mục đã loại trừ có hiệu lực ngay.
+- **Chat tiếp kiểu WeChat**: chat riêng và nhóm chat không còn tự kèm cả trang diễn đàn, nội dung diễn đàn chỉ được đưa vào qua chữ bạn chia sẻ hoặc kể lại rõ ràng trong tin nhắn. Lịch sử chat đầy đủ vẫn giữ, đặt sau tư liệu bối cảnh; prompt chat tiếp chú trọng nhóm lời gần nhất, lời đó nhắm vào ai và kết quả đã được đáp lại, đồng thời giữ kiểu gửi liên tiếp vốn có của nhân vật.

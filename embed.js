@@ -6,13 +6,13 @@ export function mountEmbedded({ preset, host, documentRef = document, release, u
   async function replaceCore(coreUrl, nextRelease) {
     let next;
     try { next = await import(new URL('./dist/runtime.js', coreUrl).href); }
-    catch { throw new Error('手机新版本加载失败，当前手机仍可使用，请稍后再更新。'); }
-    if (typeof next.initialize !== 'function') throw new Error('手机新版本加载不完整，当前手机仍可使用，请稍后再更新。');
+    catch { throw new Error('Tải bản điện thoại mới thất bại, điện thoại hiện tại vẫn dùng được, hãy cập nhật lại sau.'); }
+    if (typeof next.initialize !== 'function') throw new Error('Bản điện thoại mới tải chưa đầy đủ, điện thoại hiện tại vẫn dùng được, hãy cập nhật lại sau.');
     app.dispose({ preserveQuickReply: true });
     try {
       app = next.initialize({ ...options, coreUrl, release: nextRelease, replaceCore });
       app.open();
-    } catch { throw new Error('手机新版本启动失败，请重新加载随卡脚本。已有手机内容保留。'); }
+    } catch { throw new Error('Khởi động bản điện thoại mới thất bại, hãy tải lại script đi kèm card. Nội dung điện thoại đã có được giữ lại.'); }
   }
   let app = initialize({ ...options, coreUrl: import.meta.url, release, updateError, replaceCore });
   return { open: () => app.open(), dispose: () => app.dispose() };
